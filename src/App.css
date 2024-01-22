@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.forum
+ {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 3rem;
+  background-color: #fffcfc;
+  color: #fff;
+}
+
+.news-update{
+  border: 5px solid;
+  display: block;
+  width: 25%;
+  margin: left;
+  margin-top: -500px;
+  margin-left: 10px;
+  padding: 10px;
+  height: 80vh;
+  border-style: groove;
+}
+
+.chart{
+  border: 5px solid;
+  margin: auto;
+  margin-top: 100px;
+  margin-right: 40px;
+  width: 70%;
+  padding: 10px;
+  display: block;
+  border-style: dotted dashed solid double;
+
+}
+/* Navbar CSS */
+.navbar {
+    background-color: #dd6e6e;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+  .link-img{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  .right-text{
+    position: relative;
+    font-size: 2rem;
+    padding: 5px;
+    float: right;
+  }
+
+  @media screen and (max-width: 768px) {
+    .right-text {
+      margin-left: auto; /* Move right-text to the far left for smaller screens */
+    }
+  }
+  .menu-bars {
+    margin-left: 2rem;
+    position: abs;
+    font-size: 2rem;
+    background: none;
+    color: #000;
+  }
+  
+  .nav-menu {
+    background-color: #dd6e6e;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 450ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #151414;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #000000;
+    color: #dd6e6e;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #dd6e6e;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    height: 60%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(7, 3, 3);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-image: #fff;
 }
