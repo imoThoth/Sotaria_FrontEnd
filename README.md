@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# SOTARIA : Personal Finance Made Easy
 
 Sotaria Figma Design ![WhatsApp Image 2024-01-22 at 16 27 01_571fbce9](https://github.com/imoThoth/Sotaria_FrontEnd/assets/53401768/b5324414-a000-40ab-a634-03d9218b6248)
 
