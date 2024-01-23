@@ -16,13 +16,13 @@ export const SideBarData = [
     {
         title: "Chart",
         path: "/chart",
-        icons: <IoIcons.IoIosPaper />,
+        icons: <FaIcons.FaChartArea/>,
         className: "nav-text"
     },
     {
         title: "Forum",
         path: "/forum",
-        icons: <FaIcons.FaCartPlus />,
+        icons: <FaIcons.FaAddressBook />,
         className: "nav-text"
     }
     // ,

@@ -11,6 +11,7 @@ const Navbar = () => {
 
     const [sideBar, setSideBar] = useState(false);
     const {isAuthenticated, user, logout} = useContext(AuthContext)
+    
     const showSideBar = () => {setSideBar(!sideBar)}
     // const [showSideBar, setShowSideBar] = useState(false);
 
