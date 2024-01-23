@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sotaria Figma Design ![WhatsApp Image 2024-01-22 at 16 27 01_571fbce9](https://github.com/imoThoth/Sotaria_FrontEnd/assets/53401768/b5324414-a000-40ab-a634-03d9218b6248)
+
+Sotaria Chart ![WhatsApp Image 2024-01-22 at 12 23 06_af462031](https://github.com/imoThoth/Sotaria_FrontEnd/assets/53401768/63d536e7-d285-43ed-8001-a996b6c9968e)
+
 
 ## Available Scripts
 
